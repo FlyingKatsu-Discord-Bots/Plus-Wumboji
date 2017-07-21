@@ -8,7 +8,9 @@ Supports custom emoji as well as emoji identifiers from [EmojiOne(#4a166f9)](htt
 
 Use `node custom/emoji/extract-shortname.js filename.json` to generate a `filename.json` containing an object whose keys are unicode emoji, each with a shortname (such as `:grinning:` or `:rofl:`) and a URL of the corresponding EmojiOne or Twemoji PNG files.
 
-To make the keys be shortnames instead of emoji symbols, use `node custom/emoji/extract-shortname.js filename-short.json true`
+To make the keys be shortnames instead of emoji symbols, use: 
+
+> `node custom/emoji/extract-shortname.js filename-short.json true`
 
 Most keys should use the correct unicode code points, but not all are guaranteed to match Discord at this time.  For example, `:family_mwgb:` correctly includes zero-width-joiners that combine all four people 👨👩👧👦 into a single emoji 👨‍👩‍👧‍👦, but `:man_zombie:` does not yet have a corresponding Discord emoji.
 
