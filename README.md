@@ -6,7 +6,7 @@ Supports custom emoji as well as emoji identifiers from [EmojiOne(#4a166f9)](htt
 
 ## Usage
 
-Use `node custom/emoji/extract-shortname.js filename.json` to generate a `filename.json` containing an object whose keys are unicode emoji, each with a shortname (such as :grinning: or :rofl:) and a URL of the corresponding EmojiOne or Twemoji PNG files.
+Use `node custom/emoji/extract-shortname.js filename.json` to generate a `filename.json` containing an object whose keys are unicode emoji, each with a shortname (such as `:grinning:` or `:rofl:`) and a URL of the corresponding EmojiOne or Twemoji PNG files.
 
 To make the keys be shortnames instead of emoji symbols, use `node custom/emoji/extract-shortname.js filename-short.json true`
 
