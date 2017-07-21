@@ -4,8 +4,11 @@ An add-on for [Discord-Bot-Module](https://github.com/FlyingKatsu-Discord-Bots/D
 
 Supports custom emoji as well as emoji identifiers from [EmojiOne(#4a166f9)](https://github.com/emojione/emojione/commit/4a166f9334809b5044ecf493f7decf47d50e0a8a) with images from [Twemoji 2.3](http://twemoji.maxcdn.com/2/test/preview.html).
 
-## Usage
+## Integration
 
+TBD
+
+## Generating Shortname Data
 Use `node custom/emoji/extract-shortname.js filename.json` to generate a `filename.json` containing an object whose keys are unicode emoji, each with a shortname (such as `:grinning:` or `:rofl:`) and a URL of the corresponding EmojiOne or Twemoji PNG files.
 
 To make the keys be shortnames instead of emoji symbols, use: 
